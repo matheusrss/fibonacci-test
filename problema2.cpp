@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//função para ver se o número pertence a sequência de fibonacci
 bool fibonacciTest(int number){
     int a = 0, b = 1;
 
@@ -24,9 +25,11 @@ int main() {
 
     int number;
 
+//Pede ao usuario digitar um nummero
     cout << "Digite um numero inteiro: ";
     cin >> number;
 
+//Aplica a função e retorna se o numero pertence ou não a sequencia fibonacci
     if(fibonacciTest(number)){
         cout << "O numero " << number << " pertence a sequencia Fibonacci." << endl;
     }else{
